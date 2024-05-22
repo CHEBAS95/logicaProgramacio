@@ -35,6 +35,19 @@ function agenda(params) {
   switch (chosse) {
     case 1:
       console.log("vas a buscar");
+      console.log("buscar por nombre 1 por numero 2");
+      const select = parseInt(prompt("buscar por nombre 1 por numero 2"))
+        if(select === 1){
+          const name = prompt('Ingresa nombre:');
+console.log(contactos[name]);
+
+
+        }else if (select === 2){
+          const number = prompt('ingresa numero');
+        }else{
+          console.log('entrada incorrecta')
+        }
+     
       break;
     case 2:
       console.log("vas a insertar");
